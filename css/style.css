@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+}
+.container-fluid{
+  border: 1px solid black;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #c2db8f;
+}
+
+#img-tag{
+  text-align: center;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover{
+  transform: rotate(180deg);
+}
+
+#search-tag{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+#search-button{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#result{
+  word-wrap: break-word;
+  list-style-type: none;
+}
+
+li{
+
+  background-color: #cedb8f;
+  width: 95%;
+  display: block;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
